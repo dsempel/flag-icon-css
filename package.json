@@ -12,11 +12,18 @@
     "type": "git",
     "url": "http://github.com/lipis/flag-icon-css"
   },
+  "scripts": {
+    "addViewBox": "babel-node --presets es2015,stage-0 addViewBox.js"
+  },
   "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "glob": "^7.0.5",
     "grunt": "1.0.1",
-    "grunt-contrib-less": "1.4.0",
+    "grunt-contrib-connect": "1.0.2",
     "grunt-contrib-cssmin": "1.0.1",
-    "grunt-contrib-watch": "1.0.0",
-    "grunt-contrib-connect": "1.0.2"
+    "grunt-contrib-less": "1.4.0",
+    "grunt-contrib-watch": "1.0.0"
   }
 }
